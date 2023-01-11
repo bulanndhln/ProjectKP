@@ -1,0 +1,263 @@
+
+img.tengah{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sidebar {
+    background-color:#C7C7C7;
+}
+.navbar{
+    background-color: #DEDEDE;
+}
+
+
+body{
+background-color:#EAEAEA;
+}
+
+footer{
+    vertical-align: middle;
+    text-align:center;
+    position: absolute;
+    left: 0;
+    top: 470px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+        
+}
+#login {
+    margin-top:10px;
+    border-radius:15px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    background-color:#7D7D7D;
+    border:2px solid #7D7D7D;
+}
+
+#login:hover{
+    border-radius:15px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    background-color: #A90000;
+    color: white;
+    border: 2px solid #A90000;
+}
+#sidebarMenu a.active {
+    color:#A90000 ;
+}
+
+
+hr{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+#cardtext{
+    margin:2px;
+}
+#card-dash{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    border-radius:20px;
+}
+
+#card-po{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    height : 430px;
+    padding:20px;
+    border-radius:20px;
+}
+
+#card-Tambahpo{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width:80vw;
+    
+    height : 500px;
+    padding:20px;
+    border-radius:20px;
+}
+#card-Tambahpo .row{
+    margin-top:15px;
+
+}
+#card-EditPO{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width:80vw;
+    height : 500px;
+    padding:20px;
+    border-radius:20px;
+}
+
+#card-EditPO .row{
+    margin-top:15px;
+
+}
+
+#card-rev{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    height : 430px;
+    padding:20px;
+    border-radius:20px;
+}
+#card-editrev{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width:80vw;
+    height : 430px;
+    padding:20px;
+    border-radius:20px;
+    
+}
+
+#card-staff{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width:300px;
+    height : 300px;
+    padding:20px;
+    border-radius:20px;
+}
+#card-editstaff{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width:60vw;
+    height : 500px;
+    padding:20px;
+    border-radius:20px;
+    display:flex;
+    
+}
+#card-editstaff .row{
+    margin-top:15px;
+
+}
+
+table tr td.staff{
+    vertical-align:middle;
+    text-align:left;
+    
+}
+.form-check{
+    margin-right:20px;
+}
+
+table tr th{
+    vertical-align:middle;
+    text-align:center;
+    
+    
+}
+table tr td{
+    vertical-align:middle;
+    text-align:center;
+    
+}
+
+.rata {
+    display:flex;
+}
+
+.rata form {
+    margin:4px;
+}
+.rata a {
+    margin:7px;
+}
+
+#btnEdit{
+    margin-top:10px;
+    border-radius:15px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    background-color: #FFA2A2;
+    border:2px solid #FFA2A2;
+}
+#btnEdit:hover{
+    border-radius:15px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    background-color: #A90000;
+    color: white;
+    border: 2px solid #A90000;
+
+}
+
+#btndelete{
+    margin-top:10px;
+    border-radius:15px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    background-color: #FFA2A2;
+    border:2px solid #FFA2A2;
+    
+}
+#btndelete:hover{
+    border-radius:15px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    background-color: #A90000;
+    color: white;
+    border: 2px solid #A90000;
+
+}
+#btndelete:focus{
+    color:#A90000;
+}
+#btnExport{
+    margin-top:10px;
+    border-radius:15px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    background-color:#7D7D7D;
+    border:2px solid #7D7D7D;
+}
+#btnExport:hover{
+    border-radius:15px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    background-color: #4D4D4D;
+    color: white;
+    border: 2px solid #4D4D4D;
+}
+#btnExport:focus{
+    color:#A90000;
+}
+
+#btnCancel{
+    border-radius:15px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    background-color:#7D7D7D;
+    border:2px solid #7D7D7D;
+    margin-left:5px;
+    
+}
+#btnCancel:hover{
+    border-radius:15px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    background-color: #4D4D4D;
+    color: white;
+    border: 2px solid #4D4D4D;
+}
+
+#btnSave{
+    border-radius:15px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    background-color: #FFA2A2;
+    border:2px solid #FFA2A2;
+    margin-right:5px;
+    
+}
+#btnSave:hover{
+    border-radius:15px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    background-color: #A90000;
+    color: white;
+    border: 2px solid #A90000;
+
+}
+
+#btnAdd{
+    border-radius:15px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    background-color: #FFA2A2;
+    border:2px solid #FFA2A2;
+}
+
+#btnAdd:hover{
+    border-radius:15px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    background-color: #A90000;
+    color: white;
+    border: 2px solid #A90000;
+}
