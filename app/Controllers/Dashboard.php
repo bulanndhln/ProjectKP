@@ -147,7 +147,7 @@ class Dashboard extends BaseController
         "===Update : " . $updatenew ."==="
         ;
 
-        $token = '5474958866:AAGUdcJ3O_pnoIBzEdds-p-XdaBwVDVMyAk';
+        $token = getenv('TELEGRAM_TOKEN');
         $url = "https://api.telegram.org/bot$token/sendMessage?chat_id=-740727515&parse_mode=html&text=$pesan";
                 
         $curlHandle = curl_init();
