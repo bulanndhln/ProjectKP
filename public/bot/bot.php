@@ -122,7 +122,7 @@
     // Operasi pada bot telegram
     $content = file_get_contents("php://input");
     if($content) {
-        $token = "5474958866:AAGUdcJ3O_pnoIBzEdds-p-XdaBwVDVMyAk";
+        $token = getenv('TELEGRAM_TOKEN');
         $apiLink = "https://api.telegram.org/bot$token/";
 
         $update = json_decode($content, true);
