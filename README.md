@@ -1,63 +1,22 @@
-# CodeIgniter 4 Application Starter
+---
+sidebar_position: 1
+slug: /
+---
 
-## What is CodeIgniter?
+# Project KP
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
+Project KP merupakan salah satu tugas akhir untuk menyelesaikan mata kuliah Kerja Praktik pada Jurusan Teknik Informatika Fakultas Ilmu Komputer Universitas Sriwijaya.
+Project ini dibuat untuk menyelesaikan Kerja Praktik yang dilakukan di PT. Telkom Akses Palembang pada tanggal 4 Juli 2022 s.d 4 Agustus 2022. 
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+Project ini dibuat dengan menggabungkan antara website dan bot telegram. 
+Website berfungsi sebagai alat untuk memasukkan dan menyimpan data-data yang ada. sedangkan bot telegram dibuat sebagai notifikasi pengingat yang menampilkan data-data yang ada didalam website. 
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+## Kontributor
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
-
-## Installation & updates
-
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
-
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
-
-## Setup
-
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
+<table>
+    <tr>
+        <td align="center"><a href="https://www.linkedin.com/in/fadhil-zahran-muwafa-269747261/"><img src="https://avatars.githubusercontent.com/u/77351340?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Fadhil Zahran Muwafa</b></sub><br /><sub>Kontribusi pada pembuatan Bot Telegram</sub></a></td>
+        <td align="center"><a href="https://www.linkedin.com/in/bulan-fitri-dahlan-913a7822b/"><img src="https://avatars.githubusercontent.com/u/64503005?v=4" width="100px;" alt=""/><br /><sub><b>Bulan Fitri Dahlan</b></sub><br /><sub>Kontribusi pada pembuatan Website</sub></a></td>
+    </tr>
+    
+</table>
