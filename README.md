@@ -9,7 +9,7 @@ Project KP merupakan salah satu tugas akhir untuk menyelesaikan mata kuliah Kerj
 Project ini dibuat untuk menyelesaikan Kerja Praktik yang dilakukan di PT. Telkom Akses Palembang pada tanggal 4 Juli 2022 s.d 4 Agustus 2022. 
 
 Project ini dibuat dengan menggabungkan antara website dan bot telegram. 
-Website berfungsi sebagai alat untuk memasukkan dan menyimpan data-data yang ada. sedangkan bot telegram dibuat sebagai notifikasi pengingat yang menampilkan data-data yang ada didalam website. 
+Website berfungsi sebagai alat untuk memasukkan dan menyimpan data-data yang ada. Sedangkan bot telegram dibuat sebagai notifikasi pengingat yang menampilkan data-data yang ada didalam website. 
 
 ## Kontributor
 
